@@ -13,7 +13,7 @@ setTimeout(() => {
         mediaElem.setAttribute("id", videoObj.id);
 
         let url = URL.createObjectURL(videoObj.blobData);
-        1wqewreedfsdfdsfdsfdsf
+        dfdsf
         mediaElem.innerHTML = `
                 <div class="media">
                     <video autoplay loop muted src="${url}"></video>
