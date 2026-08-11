@@ -11,7 +11,7 @@ setTimeout(() => {
         let mediaElem = document.createElement("div");
         mediaElem.setAttribute("class", "media-cont");
         mediaElem.setAttribute("id", videoObj.id);
-dsfdsfds
+
         let url = URL.createObjectURL(videoObj.blobData);
         mediaElem.innerHTML = `
                 <div class="media">
