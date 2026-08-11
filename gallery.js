@@ -30,7 +30,7 @@ setTimeout(() => {
         downloadBtn.addEventListener("click", downloadListener);
       });
     };
-dfdfd
+
     // images retrieval
     let imageDBTransaction = db.transaction("image", "readonly");
     let imageStore = imageDBTransaction.objectStore("image");
