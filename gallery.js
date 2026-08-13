@@ -13,7 +13,6 @@ setTimeout(() => {
         mediaElem.setAttribute("id", videoObj.id);
 
         let url = URL.createObjectURL(videoObj.blobData);
-
         mediaElem.innerHTML = `
                 <div class="media">
                     <video autoplay loop muted src="${url}"></video>
@@ -31,7 +30,7 @@ setTimeout(() => {
         downloadBtn.addEventListener("click", downloadListener);
       });
     };
-
+dsfdfdg
     // images retrieval
     let imageDBTransaction = db.transaction("image", "readonly");
     let imageStore = imageDBTransaction.objectStore("image");
