@@ -5,6 +5,13 @@ body {
     margin: 0;
     padding: 0;
 }
+.front {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .back {
     width: 5rem;
@@ -19,6 +26,7 @@ body {
     bottom: 4rem;
     right: 5rem;
 }
+
 .back:hover {
     cursor: pointer;
 }
